@@ -12,4 +12,4 @@ This seems to now work with the micro_speech example but a
 bit more clean-up and documentation improvements are needed 
 before I will release the actual version 1.0.0 release.
 
-[Latest](firware/latest)
+[Latest](firmware/latest/Readme.md)
