@@ -40,6 +40,22 @@ to be loaded as required as native modules.
 | Micropython | e95a8d65cdf5526d50f61cd7e27cefa97129e8b1 | microlite | https://github.com/mocleiri/micropython |
 | ULAB | 6e0b9bb7d976f97685628e1f08af694a5d540b6a | mtf-latest | https://github.com/mocleiri/micropython-ulab.git |
 
+## Module Information
+
+The **microlite** micropython module is used for tensor operations.
+
+The **audio_frontend** micropython module is used for the micro_speech example.  It wraps the tensorflow experimental audio front-end and is used to convert the input pcm data into spectrograms that are the actual input for the micro_speech tensoflow model.
+
+The **ulab** micropython module is used for numpy like ndarray's and other functions.
+
+## Micropython example scripts
+
+### Hello World
+https://github.com/mocleiri/tensorflow-micropython-examples/blob/master/examples/hello-world/README.md
+
+### Micro_Speech
+https://github.com/mocleiri/tensorflow-micropython-examples/blob/master/examples/micro-speech/README.md
+
 ## Flash Firmware
 
 In windows after you plug in your board you need to use device manager to determine
